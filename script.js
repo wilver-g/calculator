@@ -32,6 +32,8 @@ function clearall() {
     secondNumber=''
 }
 
+
+
 window.addEventListener('keydown', (e)=>{
     if (e.key === '1') {
 
@@ -42,6 +44,19 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn1.removeAttribute('style')
        },100)
+
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -56,6 +71,19 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn2.removeAttribute('style')
        },100)
+       
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
         
 
     }
@@ -71,6 +99,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn3.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -84,6 +124,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn4.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -97,6 +149,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn5.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -110,6 +174,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn6.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -124,6 +200,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn7.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -138,6 +226,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn8.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -156,6 +256,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn0.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
        
 
     }
@@ -171,6 +283,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         btn9.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
 })
@@ -182,8 +306,18 @@ window.addEventListener('keydown', (e)=>{
         screen.innerText=''
         subtBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
         setTimeout(()=>{
-         subtBtn.removeAttribute('style')
-        },100)
+            addBtn.removeAttribute('style')
+           },100)
+        //    setTimeout(()=>{
+        //      subtBtn.removeAttribute('style')
+        //     },100)
+            setTimeout(()=>{
+             multiplytBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             divtBtn.removeAttribute('style')
+            },100)
+    
     }
 })
 
@@ -194,9 +328,18 @@ window.addEventListener('keydown', (e)=>{
         operator = '/';
         screen.innerText=''
         divtBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
-       setTimeout(()=>{
-        divtBtn.removeAttribute('style')
-       },100)
+        setTimeout(()=>{
+            addBtn.removeAttribute('style')
+           },100)
+           setTimeout(()=>{
+             subtBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             multiplytBtn.removeAttribute('style')
+            },100)
+            // setTimeout(()=>{
+            //  divtBtn.removeAttribute('style')
+            // },100)
         
     }
 })
@@ -206,11 +349,20 @@ window.addEventListener('keydown', (e)=>{
 
         firstNumber = storageBank
         operator = '+';
-        screen.innerText=''
+        screen.innerText='';
         addBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
-       setTimeout(()=>{
-        addBtn.removeAttribute('style')
-       },100)
+        // setTimeout(()=>{
+        //     addBtn.removeAttribute('style')
+        //    },100)
+           setTimeout(()=>{
+             subtBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             multiplytBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             divtBtn.removeAttribute('style')
+            },100)
     }
 })
 
@@ -221,9 +373,18 @@ window.addEventListener('keydown', (e)=>{
         operator = '*';
         screen.innerText=''
         multiplytBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
-       setTimeout(()=>{
-        multiplytBtn.removeAttribute('style')
-       },100)
+        setTimeout(()=>{
+            addBtn.removeAttribute('style')
+           },100)
+           setTimeout(()=>{
+             subtBtn.removeAttribute('style')
+            },100)
+            // setTimeout(()=>{
+            //  multiplytBtn.removeAttribute('style')
+            // },100)
+            setTimeout(()=>{
+             divtBtn.removeAttribute('style')
+            },100)
     }
 })
 
@@ -237,6 +398,18 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
         delBtn.removeAttribute('style')
        },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
     }
 })
 
@@ -249,9 +422,42 @@ window.addEventListener('keydown', (e)=>{
        setTimeout(()=>{
        clrBtn.removeAttribute('style')
        },100)
-       
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
     }
+})
+
+clrBtn.addEventListener('click',(e)=>{
+    clearall();
+
+    clrBtn.setAttribute('style','background-color: rgb(216, 42, 42);scale:85%');
+   setTimeout(()=>{
+   clrBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     divtBtn.removeAttribute('style')
+    },100)
+   
 })
 
 window.addEventListener('keydown', (e)=>{
@@ -303,111 +509,402 @@ window.addEventListener('keydown', (e)=>{
          equalsBtn.removeAttribute('style')
         },100)
 
+        setTimeout(()=>{
+            addBtn.removeAttribute('style')
+           },100)
+           setTimeout(()=>{
+             subtBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             multiplytBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             divtBtn.removeAttribute('style')
+            },100)
+    
+
     }
    
 })
+
+window.addEventListener('keydown', (e)=>{
+    if (e.key === '.') {
+
+        if(screen.innerText.includes('.')){
+            return;
+        }
+    
+        else {
+            screen.innerText+='.'
+             storageBank=screen.innerText;
+        }  
+        setTimeout(()=>{
+            addBtn.removeAttribute('style')
+           },100)
+           setTimeout(()=>{
+             subtBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             multiplytBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             divtBtn.removeAttribute('style')
+            },100)
+    
+       
+
+    }
+})
+
 dcmlBtn.addEventListener('click',()=>{
 
-  
-    screen.innerText+='.'
-    storageBank=screen.innerText;
 
+    if(screen.innerText.includes('.')){
+        return;
+    }
+
+    else {
+        screen.innerText+='.'
+         storageBank=screen.innerText;
+    }  
+
+    setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
 
 })
 
 btn1.addEventListener('click',()=>{
         
-        screen.innerText+='1'
-        storageBank=screen.innerText;
-       
+    screen.innerText+='1'
+    storageBank=screen.innerText;
+    btn1.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+   setTimeout(()=>{
+    btn1.removeAttribute('style')
+   },100)
+
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     divtBtn.removeAttribute('style')
+    },100)
+   
 })
 
 btn2.addEventListener('click',()=>{
     screen.innerText+='2'
+    storageBank=screen.innerText; screen.innerText+='1'
     storageBank=screen.innerText;
+    btn2.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+   setTimeout(()=>{
+    btn2.removeAttribute('style')
+   },100)
+
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     divtBtn.removeAttribute('style')
+    },100)
+
+   
+
     
 })
 
 btn3.addEventListener('click',()=>{
-    screen.innerText+='3'
+    screen.innerText+='1'
     storageBank=screen.innerText;
+    btn3.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+   setTimeout(()=>{
+    btn3.removeAttribute('style')
+   },100)
      
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     divtBtn.removeAttribute('style')
+    },100)
+   
 })
 
 btn4.addEventListener('click',()=>{
  
-    screen.innerText+='4'
-    storageBank=screen.innerText;
+    screen.innerText+='1'
+        storageBank=screen.innerText;
+        btn4.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+       setTimeout(()=>{
+        btn4.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
     
 })
 btn5.addEventListener('click',()=>{
  
-    screen.innerText+='5'
+    screen.innerText+='1'
     storageBank=screen.innerText;
-    
+    btn5.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+   setTimeout(()=>{
+    btn5.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     divtBtn.removeAttribute('style')
+    },100)
+   
 })
 btn6.addEventListener('click',()=>{
  
-    screen.innerText+='6'
-    storageBank=screen.innerText;
+    screen.innerText+='1'
+        storageBank=screen.innerText;
+        btn6.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+       setTimeout(()=>{
+        btn6.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
     
 })
 btn7.addEventListener('click',()=>{
  
-    screen.innerText+='7'
+    screen.innerText+='1'
     storageBank=screen.innerText;
+    btn7.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+   setTimeout(()=>{
+    btn7.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     divtBtn.removeAttribute('style')
+    },100)
     
 })
 btn8.addEventListener('click',()=>{
  
-    screen.innerText+='8'
+    screen.innerText+='1'
     storageBank=screen.innerText;
+    btn8.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+   setTimeout(()=>{
+    btn8.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     divtBtn.removeAttribute('style')
+    },100)
+   
 })
 btn9.addEventListener('click',()=>{
  
-    screen.innerText+='9'
-    storageBank=screen.innerText;
+    screen.innerText+='1'
+        storageBank=screen.innerText;
+        btn9.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+       setTimeout(()=>{
+        btn9.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
     
 })
 btn0.addEventListener('click',()=>{
-
     if(!screen.innerText===true){
         screen.innerText=''
     }
  else
    { screen.innerText+='0'
     storageBank=screen.innerText;};
-})
 
-clrBtn.addEventListener('click', () => {
-  clearall();
+    btn0.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+   setTimeout(()=>{
+    btn0.removeAttribute('style')
+   },100)
+    setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
+   
 })
 
 
 
 addBtn.addEventListener('click', (e)=>{
-    firstNumber = storageBank
-    operator = '+';
-    screen.innerText=''
+   
+
+        firstNumber = storageBank
+        operator = '+';
+        screen.innerText='';
+        addBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+        // setTimeout(()=>{
+        //     addBtn.removeAttribute('style')
+        //    },100)
+           setTimeout(()=>{
+             subtBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             multiplytBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             divtBtn.removeAttribute('style')
+            },100)
+    
+ 
 })
 
 subtBtn.addEventListener('click', (e)=>{
     firstNumber = storageBank
     operator = '-';
     screen.innerText=''
+    subtBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+    setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+    //    setTimeout(()=>{
+    //      subtBtn.removeAttribute('style')
+    //     },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 })
 
 multiplytBtn.addEventListener('click', (e)=>{
     firstNumber = storageBank
-    operator = '*';
-    screen.innerText=''
+        operator = '*';
+        screen.innerText=''
+        multiplytBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+    //    setTimeout(()=>{
+    //     multiplytBtn.removeAttribute('style')
+    //    },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        // setTimeout(()=>{
+        //  multiplytBtn.removeAttribute('style')
+        // },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 })
 
 divtBtn.addEventListener('click', (e)=>{
     firstNumber = storageBank
     operator = '/';
     screen.innerText=''
+    divtBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+//    setTimeout(()=>{
+//     divtBtn.removeAttribute('style')
+//    },100)
+   setTimeout(()=>{
+    addBtn.removeAttribute('style')
+   },100)
+   setTimeout(()=>{
+     subtBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+     multiplytBtn.removeAttribute('style')
+    },100)
+    // setTimeout(()=>{
+    //  divtBtn.removeAttribute('style')
+    // },100)
+   
+    
 })
 
 equalsBtn.addEventListener('click', (e) =>  {
@@ -419,6 +916,7 @@ equalsBtn.addEventListener('click', (e) =>  {
         screen.innerText=result.toString();
 
         storageBank=result;
+        
     }
     
     else if (operator=== '-') {
@@ -450,10 +948,44 @@ equalsBtn.addEventListener('click', (e) =>  {
 
         storageBank=result;
     }
+    equalsBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+    setTimeout(()=>{
+     equalsBtn.removeAttribute('style')
+    },100)
+    setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
 
 });
 delBtn.addEventListener('click',(e)=>{
     screen.innerText=screen.innerText.toString().slice(0,-1)
     firstNumber=screen.innerText;
     storageBank=firstNumber;
+    delBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
+       setTimeout(()=>{
+        delBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
+       setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         multiplytBtn.removeAttribute('style')
+        },100)
+        setTimeout(()=>{
+         divtBtn.removeAttribute('style')
+        },100)
+
+    
 })
