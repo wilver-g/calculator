@@ -388,8 +388,6 @@ clrBtn.addEventListener('click', () => {
 
 addBtn.addEventListener('click', (e)=>{
     firstNumber = storageBank
-    secondNumber = screen.innerText
-   storageBank.push[screen.innerText]
     operator = '+';
     screen.innerText=''
 })
