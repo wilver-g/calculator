@@ -53,6 +53,8 @@ body {
     padding-right: 30px;
     align-items: center;
     border: 1px solid black;
+   word-wrap: break-word;
+   word-break: break-all;
 }
 
 .buttons-container {
@@ -133,4 +135,3 @@ body {
     color: rgb(133, 35, 35);
     font-weight: bold;
 }
-
