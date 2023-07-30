@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/calculator');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +17,9 @@ html, body {
     height: 100vh;
 }
 
+body{
+    scale: 85%;
+}
 body {
     background: linear-gradient(rgb(150, 147, 147),white);
     display: flex;
@@ -27,14 +34,14 @@ body {
     gap:25px;
     display: flex;
     flex-direction: column;
-    height:600px;
+    height:670px;
     width: 500px;
     border-radius: 5%;
    
 }
 
 .screen {
-    color: black;
+    color: black;  
     font-size: 50px;
     font-family: 'Calculator', sans-serif;
     background-color: #88a880;
@@ -51,8 +58,8 @@ body {
 .buttons-container {
     background-color: rgb(208, 201, 201);
     border:solid 2px rgb(84, 83, 83);
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: space-around;
     display: flex;
     flex-wrap: wrap;
     margin: 0px 25px 25px 25px;
@@ -61,18 +68,19 @@ body {
 }
 
 .buttons-container > * {
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(115, 115, 135);
-    margin: 20px;
-    height:70px;
-    width: 70px;
+    margin: 5px;
+    height:80px;
+    width: 80px;
     border-radius: 10px;
     color:#ddd;
     border: 1px solid black;
     box-shadow: 5px 5px 1px black;
+    cursor: pointer;
     
 
 }
@@ -82,13 +90,47 @@ body {
    
 }
 
-.clr-btn {
+.clear-btn {
     color: #fff;
     background-color: rgb(220, 73, 73);
 }
 
-.clr-btn:hover {
+.clear-btn:hover {
     
     background-color: rgb(216, 42, 42);
+}
+
+
+
+.clear-btn {
+    outline: 1px solid black;
+    width: 80px;
+    height:80px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.calc-name {
+    
+   letter-spacing: 5px;
+    flex:1;
+    font-size: 70px;
+   
+    width:auto;
+   background-color:transparent;
+    color: rgb(11, 11, 54);
+    border: none;
+    box-shadow: none;
+    font-family: 'Tektur', cursive;
+}
+
+.calc-name:hover{
+    background-color:transparent
+}
+
+.del {
+    margin-left: 25px;
+    color: rgb(75, 11, 11);
+    font-weight: bold;
 }
 
