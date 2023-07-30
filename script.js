@@ -18,11 +18,19 @@ const divtBtn = document.querySelector('.div-btn');
 const equalsBtn = document.querySelector('.equals-btn')
 const dcmlBtn = document.querySelector('.decimal')
 const delBtn = document.querySelector('.del')
-let storageBank=[];
+let storageBank=[0];
 
 let firstNumber ='';
 let operator = '';
 let secondNumber=''
+
+function clearall() {
+    screen.innerText=''
+    firstNumber='';
+    storageBank=[0];
+    operator=''
+    secondNumber=''
+}
 
 window.addEventListener('keydown', (e)=>{
     if (e.key === '1') {
@@ -30,6 +38,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='1'
         storageBank=screen.innerText;
+        btn1.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn1.removeAttribute('style')
+       },100)
 
     }
 })
@@ -40,6 +52,11 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='2'
         storageBank=screen.innerText;
+        btn2.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn2.removeAttribute('style')
+       },100)
+        
 
     }
 })
@@ -50,6 +67,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='3'
         storageBank=screen.innerText;
+        btn3.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn3.removeAttribute('style')
+       },100)
 
     }
 })
@@ -59,6 +80,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='4'
         storageBank=screen.innerText;
+        btn4.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn4.removeAttribute('style')
+       },100)
 
     }
 })
@@ -68,6 +93,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='5'
         storageBank=screen.innerText;
+        btn5.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn5.removeAttribute('style')
+       },100)
 
     }
 })
@@ -77,6 +106,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='6'
         storageBank=screen.innerText;
+        btn6.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn6.removeAttribute('style')
+       },100)
 
     }
 })
@@ -87,6 +120,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='7'
         storageBank=screen.innerText;
+        btn7.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn7.removeAttribute('style')
+       },100)
 
     }
 })
@@ -97,6 +134,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='8'
         storageBank=screen.innerText;
+        btn8.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn8.removeAttribute('style')
+       },100)
 
     }
 })
@@ -104,9 +145,18 @@ window.addEventListener('keydown', (e)=>{
 window.addEventListener('keydown', (e)=>{
     if (e.key === '0') {
 
-        
-        screen.innerText+='0'
-        storageBank=screen.innerText;
+        if(!screen.innerText===true){
+            screen.innerText=''
+        }
+     else
+       { screen.innerText+='0'
+        storageBank=screen.innerText;};
+
+        btn0.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn0.removeAttribute('style')
+       },100)
+       
 
     }
 })
@@ -117,6 +167,10 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='9'
         storageBank=screen.innerText;
+        btn9.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        btn9.removeAttribute('style')
+       },100)
 
     }
 })
@@ -126,6 +180,10 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '-';
         screen.innerText=''
+        subtBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+        setTimeout(()=>{
+         subtBtn.removeAttribute('style')
+        },100)
     }
 })
 
@@ -135,6 +193,11 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '/';
         screen.innerText=''
+        divtBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        divtBtn.removeAttribute('style')
+       },100)
+        
     }
 })
 
@@ -144,6 +207,10 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '+';
         screen.innerText=''
+        addBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        addBtn.removeAttribute('style')
+       },100)
     }
 })
 
@@ -153,6 +220,10 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '*';
         screen.innerText=''
+        multiplytBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        multiplytBtn.removeAttribute('style')
+       },100)
     }
 })
 
@@ -162,6 +233,10 @@ window.addEventListener('keydown', (e)=>{
         screen.innerText=screen.innerText.toString().slice(0,-1)
     firstNumber=screen.innerText;
     storageBank=firstNumber;
+    delBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+       setTimeout(()=>{
+        delBtn.removeAttribute('style')
+       },100)
     }
 })
 
@@ -177,6 +252,7 @@ window.addEventListener('keydown', (e)=>{
             screen.innerText=result.toString();
     
             storageBank=result;
+            
         }
         
         else if (operator=== '-') {
@@ -208,8 +284,13 @@ window.addEventListener('keydown', (e)=>{
     
             storageBank=result;
         }
+        equalsBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+        setTimeout(()=>{
+         equalsBtn.removeAttribute('style')
+        },100)
 
     }
+   
 })
 dcmlBtn.addEventListener('click',()=>{
 
@@ -222,15 +303,10 @@ dcmlBtn.addEventListener('click',()=>{
 })
 
 btn1.addEventListener('click',()=>{
-
-    
-  
+        
         screen.innerText+='1'
         storageBank=screen.innerText;
-        
-   
-
-    
+       
 })
 
 btn2.addEventListener('click',()=>{
@@ -281,14 +357,17 @@ btn9.addEventListener('click',()=>{
     
 })
 btn0.addEventListener('click',()=>{
- 
-    screen.innerText+='0'
-    storageBank=screen.innerText;
+
+    if(!screen.innerText===true){
+        screen.innerText=''
+    }
+ else
+   { screen.innerText+='0'
+    storageBank=screen.innerText;};
 })
 
 clrBtn.addEventListener('click', () => {
-   screen.innerText='';
-   storageBank['']
+  clearall();
 })
 
 
