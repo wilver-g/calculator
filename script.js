@@ -88,7 +88,32 @@ window.addEventListener('keydown', (e)=>{
 
     }
 })
-
+window.addEventListener('keydown', (e)=>{
+    if (e.key==='.') {
+        if(screen.innerText.includes('.')){
+            return;
+        }
+    
+        else {
+            screen.innerText+='.'
+             storageBank=screen.innerText;
+        }  
+    
+        setTimeout(()=>{
+            addBtn.removeAttribute('style')
+           },100)
+           setTimeout(()=>{
+             subtBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             multiplytBtn.removeAttribute('style')
+            },100)
+            setTimeout(()=>{
+             divtBtn.removeAttribute('style')
+            },100)
+    
+    }
+})
 window.addEventListener('keydown', (e)=>{
     if (e.key === '3') {
 
