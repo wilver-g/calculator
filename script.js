@@ -38,7 +38,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='1'
         storageBank=screen.innerText;
-        btn1.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn1.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn1.removeAttribute('style')
        },100)
@@ -52,7 +52,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='2'
         storageBank=screen.innerText;
-        btn2.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn2.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn2.removeAttribute('style')
        },100)
@@ -67,7 +67,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='3'
         storageBank=screen.innerText;
-        btn3.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn3.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn3.removeAttribute('style')
        },100)
@@ -80,7 +80,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='4'
         storageBank=screen.innerText;
-        btn4.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn4.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn4.removeAttribute('style')
        },100)
@@ -93,7 +93,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='5'
         storageBank=screen.innerText;
-        btn5.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn5.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn5.removeAttribute('style')
        },100)
@@ -106,7 +106,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='6'
         storageBank=screen.innerText;
-        btn6.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn6.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn6.removeAttribute('style')
        },100)
@@ -120,7 +120,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='7'
         storageBank=screen.innerText;
-        btn7.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn7.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn7.removeAttribute('style')
        },100)
@@ -134,7 +134,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='8'
         storageBank=screen.innerText;
-        btn8.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn8.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn8.removeAttribute('style')
        },100)
@@ -152,7 +152,7 @@ window.addEventListener('keydown', (e)=>{
        { screen.innerText+='0'
         storageBank=screen.innerText;};
 
-        btn0.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn0.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn0.removeAttribute('style')
        },100)
@@ -167,7 +167,7 @@ window.addEventListener('keydown', (e)=>{
         
         screen.innerText+='9'
         storageBank=screen.innerText;
-        btn9.setAttribute('style','background-color:rgb(88, 88, 106)');
+        btn9.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         btn9.removeAttribute('style')
        },100)
@@ -180,7 +180,7 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '-';
         screen.innerText=''
-        subtBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+        subtBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
         setTimeout(()=>{
          subtBtn.removeAttribute('style')
         },100)
@@ -193,7 +193,7 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '/';
         screen.innerText=''
-        divtBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+        divtBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         divtBtn.removeAttribute('style')
        },100)
@@ -207,7 +207,7 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '+';
         screen.innerText=''
-        addBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+        addBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         addBtn.removeAttribute('style')
        },100)
@@ -220,7 +220,7 @@ window.addEventListener('keydown', (e)=>{
         firstNumber = storageBank
         operator = '*';
         screen.innerText=''
-        multiplytBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+        multiplytBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         multiplytBtn.removeAttribute('style')
        },100)
@@ -233,10 +233,24 @@ window.addEventListener('keydown', (e)=>{
         screen.innerText=screen.innerText.toString().slice(0,-1)
     firstNumber=screen.innerText;
     storageBank=firstNumber;
-    delBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+    delBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
         delBtn.removeAttribute('style')
        },100)
+    }
+})
+
+window.addEventListener('keydown', (e)=>{
+    if (e.key === 'c') {
+
+        clearall();
+
+        clrBtn.setAttribute('style','background-color: rgb(216, 42, 42);scale:85%');
+       setTimeout(()=>{
+       clrBtn.removeAttribute('style')
+       },100)
+       
+
     }
 })
 
@@ -284,7 +298,7 @@ window.addEventListener('keydown', (e)=>{
     
             storageBank=result;
         }
-        equalsBtn.setAttribute('style','background-color:rgb(88, 88, 106)');
+        equalsBtn.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
         setTimeout(()=>{
          equalsBtn.removeAttribute('style')
         },100)
