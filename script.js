@@ -635,7 +635,6 @@ btn1.addEventListener('click',()=>{
 
 btn2.addEventListener('click',()=>{
     screen.innerText+='2'
-    storageBank=screen.innerText; screen.innerText+='1'
     storageBank=screen.innerText;
     btn2.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
    setTimeout(()=>{
@@ -661,7 +660,7 @@ btn2.addEventListener('click',()=>{
 })
 
 btn3.addEventListener('click',()=>{
-    screen.innerText+='1'
+    screen.innerText+='3'
     storageBank=screen.innerText;
     btn3.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
    setTimeout(()=>{
@@ -685,7 +684,7 @@ btn3.addEventListener('click',()=>{
 
 btn4.addEventListener('click',()=>{
  
-    screen.innerText+='1'
+    screen.innerText+='4'
         storageBank=screen.innerText;
         btn4.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
@@ -707,7 +706,7 @@ btn4.addEventListener('click',()=>{
 })
 btn5.addEventListener('click',()=>{
  
-    screen.innerText+='1'
+    screen.innerText+='5'
     storageBank=screen.innerText;
     btn5.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
    setTimeout(()=>{
@@ -729,7 +728,7 @@ btn5.addEventListener('click',()=>{
 })
 btn6.addEventListener('click',()=>{
  
-    screen.innerText+='1'
+    screen.innerText+='6'
         storageBank=screen.innerText;
         btn6.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
@@ -751,7 +750,7 @@ btn6.addEventListener('click',()=>{
 })
 btn7.addEventListener('click',()=>{
  
-    screen.innerText+='1'
+    screen.innerText+='7'
     storageBank=screen.innerText;
     btn7.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
    setTimeout(()=>{
@@ -773,7 +772,7 @@ btn7.addEventListener('click',()=>{
 })
 btn8.addEventListener('click',()=>{
  
-    screen.innerText+='1'
+    screen.innerText+='8'
     storageBank=screen.innerText;
     btn8.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
    setTimeout(()=>{
@@ -795,7 +794,7 @@ btn8.addEventListener('click',()=>{
 })
 btn9.addEventListener('click',()=>{
  
-    screen.innerText+='1'
+    screen.innerText+='9'
         storageBank=screen.innerText;
         btn9.setAttribute('style','background-color:rgb(88, 88, 106);scale:85%');
        setTimeout(()=>{
