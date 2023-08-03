@@ -40,6 +40,7 @@ body {
 }
 
 .screen {
+    overflow:auto;
     color: black;  
     font-size: 50px;
     font-family: 'Calculator', sans-serif;
